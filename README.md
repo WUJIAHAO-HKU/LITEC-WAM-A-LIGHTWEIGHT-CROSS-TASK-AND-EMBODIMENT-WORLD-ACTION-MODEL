@@ -2,6 +2,13 @@
 <h3 align="center">A Lightweight Cross-Task-and-Embodiment World Action Model</h3>
 
 <p align="center">
+  <a href="#getting-started"><img src="assets/badges/python.svg" alt="Python 3.10+"></a>
+  <a href="#results"><img src="assets/badges/results.svg" alt="Results: simulation and real-robot evaluation"></a>
+  <a href="docs/protocols.md"><img src="assets/badges/protocols.svg" alt="Evaluation protocols"></a>
+  <a href="LICENSE"><img src="assets/badges/license.svg" alt="License: MIT"></a>
+</p>
+
+<p align="center">
   <a href="#method">Method</a> ·
   <a href="#results">Results</a> ·
   <a href="#getting-started">Getting started</a> ·
