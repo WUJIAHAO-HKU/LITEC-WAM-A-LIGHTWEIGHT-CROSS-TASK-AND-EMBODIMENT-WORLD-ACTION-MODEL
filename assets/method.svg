@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">LiteC-WAM conceptual components</title>
+<desc id="desc">Observations support action generation. Candidate actions condition sparse dynamics; world-model feedback returns to action generation. Embodiment interfaces map actions to robot commands.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="#7c8ba3"/></marker></defs>
+<rect x="1" y="1" width="1198" height="358" rx="20" fill="#f8fafc" stroke="#dce4ed"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="30" y="36" font-size="13" fill="#627186" letter-spacing="1.5">CONCEPTUAL COMPONENTS</text>
+<g stroke="#7c8ba3" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M302 124H440"/><path d="M760 124H888"/><path d="M530 170V221"/><path d="M670 221V170"/></g>
+<rect x="32" y="76" width="270" height="95" rx="14" fill="#e5f7f4" stroke="#9dd7cf"/>
+<rect x="440" y="76" width="320" height="95" rx="14" fill="#eaf0ff" stroke="#b5c9f2"/>
+<rect x="440" y="222" width="320" height="83" rx="14" fill="#f0e9fd" stroke="#cfb8ef"/>
+<rect x="890" y="76" width="277" height="95" rx="14" fill="#fff0e2" stroke="#efc79e"/>
+<g text-anchor="middle" font-size="18" font-weight="700" fill="#20354f"><text x="167" y="111">Observation context</text><text x="600" y="111">Action generation</text><text x="600" y="252">Sparse dynamics</text><text x="1028" y="111">Embodiment interfaces</text></g>
+<g text-anchor="middle" font-size="13" fill="#536580"><text x="167" y="140">RGB + state + instruction</text><text x="600" y="140">Eight-step action chunks</text><text x="600" y="279">Action-conditioned · Top-2 of 8</text><text x="1028" y="140">Robot-specific action conventions</text></g>
+<text x="516" y="201" text-anchor="end" font-size="12" fill="#536580">Candidate actions</text><text x="684" y="201" font-size="12" fill="#71549c" font-weight="700">World-model feedback</text>
+<text x="32" y="336" font-size="12" fill="#63748a">Feedback placement and freeze boundaries depend on the evaluated configuration; this diagram is not a single execution graph.</text>
+</g></svg>

@@ -1,0 +1,45 @@
+{
+  "schema": "litec-wam.public-reported-counts.v1",
+  "provenance": "Transcribed from the revised manuscript and checked experiment summaries. These are aggregate counts, not a release of per-trial logs.",
+  "libero": {"successes": 48, "trials": 50, "tasks": 5, "checkpoint_parameters": 47570534, "additional_feedback_head": false},
+  "rlbench": {"successes": 104, "trials": 120, "tasks": 15, "selected_task_parameters": 54550093, "development_evaluation": true},
+  "real_robot": [
+    {"task": "Tape removal and handover", "successes": 18, "trials": 20},
+    {"task": "Tape placement", "successes": 26, "trials": 30},
+    {"task": "Bottle-cap placement", "successes": 10, "trials": 15}
+  ],
+  "arx5": {
+    "metric": "At least 95% of evaluated windows pass first-step thresholds per episode",
+    "split": "validation used for model selection",
+    "windows_per_task": 4096,
+    "joint_threshold_radians": 0.08,
+    "gripper_threshold_meters": 0.002,
+    "tasks": [
+      {"task": "Turn on the light switch", "successes": 81, "trials": 82},
+      {"task": "Hang the cup", "successes": 88, "trials": 101},
+      {"task": "Press the button", "successes": 97, "trials": 97},
+      {"task": "Wipe the table", "successes": 99, "trials": 120},
+      {"task": "Water the flowers", "successes": 88, "trials": 95},
+      {"task": "Pick out the green blocks", "successes": 115, "trials": 125},
+      {"task": "Arrange flowers", "successes": 99, "trials": 110}
+    ]
+  },
+  "feedback": {
+    "with_feedback": 353,
+    "zeroed": 319,
+    "paired_trials": 480,
+    "feedback_only": 64,
+    "zeroed_only": 30,
+    "tasks": 20,
+    "initial_states_per_task": 4,
+    "per_seed": [
+      {"seed": 20260829, "with_feedback": 65, "zeroed": 62, "trials": 80},
+      {"seed": 20260830, "with_feedback": 70, "zeroed": 54, "trials": 80},
+      {"seed": 20260831, "with_feedback": 61, "zeroed": 52, "trials": 80},
+      {"seed": 20260832, "with_feedback": 58, "zeroed": 47, "trials": 80},
+      {"seed": 20260833, "with_feedback": 42, "zeroed": 49, "trials": 80},
+      {"seed": 20260834, "with_feedback": 57, "zeroed": 55, "trials": 80}
+    ],
+    "separate_five_task_check": {"with_feedback": 47, "zeroed": 48, "trials": 50}
+  }
+}
