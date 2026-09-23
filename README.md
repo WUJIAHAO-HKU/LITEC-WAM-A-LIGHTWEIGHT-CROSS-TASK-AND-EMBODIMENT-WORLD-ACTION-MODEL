@@ -1,5 +1,5 @@
 <h1 align="center">LiteC-WAM</h1>
-<h3 align="center">A Lightweight Cross-Task-and-Embodiment World Action Model</h3>
+<h3 align="center">A Lightweight Cross Task and Embodiment World Action Model</h3>
 
 <p align="center">
   <a href="#getting-started"><img src="assets/badges/python.svg" alt="Python 3.10+"></a>
@@ -92,7 +92,7 @@ The report recomputes success rates, Wilson confidence intervals, the ARX5 task 
 
 ```bibtex
 @misc{litecwam2026,
-  title = {LiteC-WAM: A Lightweight Cross-Task-and-Embodiment World Action Model},
+  title = {LiteC-WAM: A Lightweight Cross Task and Embodiment World Action Model},
   author = {Anonymous Authors},
   year = {2026},
   note = {Anonymous manuscript}
